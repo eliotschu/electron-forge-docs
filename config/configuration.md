@@ -65,7 +65,8 @@ module.exports = {
   publishers: [],
   plugins: [],
   hooks: { /* ... */ },
-  buildIdentifier: 'my-build'
+  buildIdentifier: 'my-build',
+  outDir: 'desired/outpath',
 };
 ```
 {% endtab %}
@@ -82,7 +83,8 @@ module.exports = {
       "publishers": [ ... ],
       "plugins": [ ... ],
       "hooks": { ... },
-      "buildIdentifier": "my-build"
+      "buildIdentifier": "my-build",
+      "outDir": "desired/outpath"
     }
   }
 }
